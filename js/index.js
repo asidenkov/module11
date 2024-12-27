@@ -124,7 +124,7 @@ const filterFruits = () => {
 
 filterButton.addEventListener('click', () => {
   filterFruits(); // Запускаем фильтрацию при клике на кнопку
-  display(filteredFruits); // отображаем отфильтрованные фрукты без перемешивания
+  display(filteredFruits);
 });
 
 
